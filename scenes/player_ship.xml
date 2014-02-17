@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="4" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+	<ext_resource path="res://scripts/player_ship.*" type="Script"></ext_resource>
+	<ext_resource path="res://assets/ships/ship_1.*" type="Texture"></ext_resource>
+	<ext_resource path="res://assets/particles/engine_exhaust.*" type="Texture"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "names" </string>
+			<string_array  len="108">
+				<string> "player_ship" </string>
+				<string> "RigidBody2D" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/on_top" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "shape_count" </string>
+				<string> "mode" </string>
+				<string> "mass" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "active" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "sprite" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "modulate" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "rear_exhaust_1" </string>
+				<string> "Particles2D" </string>
+				<string> "visibility/blend_mode" </string>
+				<string> "config/amount" </string>
+				<string> "config/lifetime" </string>
+				<string> "config/time_scale" </string>
+				<string> "config/preprocess" </string>
+				<string> "config/emit_timeout" </string>
+				<string> "config/emitting" </string>
+				<string> "config/offset" </string>
+				<string> "config/half_extents" </string>
+				<string> "config/local_space" </string>
+				<string> "config/explosiveness" </string>
+				<string> "config/texture" </string>
+				<string> "params/direction" </string>
+				<string> "params/spread" </string>
+				<string> "params/linear_velocity" </string>
+				<string> "params/spin_velocity" </string>
+				<string> "params/orbit_velocity" </string>
+				<string> "params/gravity_direction" </string>
+				<string> "params/gravity_strength" </string>
+				<string> "params/radial_accel" </string>
+				<string> "params/tangential_accel" </string>
+				<string> "params/damping" </string>
+				<string> "params/initial_size" </string>
+				<string> "params/final_size" </string>
+				<string> "params/hue_variation" </string>
+				<string> "randomness/direction" </string>
+				<string> "randomness/spread" </string>
+				<string> "randomness/linear_velocity" </string>
+				<string> "randomness/spin_velocity" </string>
+				<string> "randomness/orbit_velocity" </string>
+				<string> "randomness/gravity_direction" </string>
+				<string> "randomness/gravity_strength" </string>
+				<string> "randomness/radial_accel" </string>
+				<string> "randomness/tangential_accel" </string>
+				<string> "randomness/damping" </string>
+				<string> "randomness/initial_size" </string>
+				<string> "randomness/final_size" </string>
+				<string> "randomness/hue_variation" </string>
+				<string> "color_phases/count" </string>
+				<string> "phase_0/pos" </string>
+				<string> "phase_0/color" </string>
+				<string> "phase_1/pos" </string>
+				<string> "phase_1/color" </string>
+				<string> "phase_2/pos" </string>
+				<string> "phase_2/color" </string>
+				<string> "phase_3/pos" </string>
+				<string> "phase_3/color" </string>
+				<string> "emission_points" </string>
+				<string> "rear_exhaust_2" </string>
+				<string> "camera" </string>
+				<string> "Camera2D" </string>
+				<string> "current" </string>
+				<string> "smoothing" </string>
+				<string> "zoom" </string>
+				<string> "limit/left" </string>
+				<string> "limit/top" </string>
+				<string> "limit/right" </string>
+				<string> "limit/bottom" </string>
+				<string> "drag_margin/h_enabled" </string>
+				<string> "drag_margin/v_enabled" </string>
+				<string> "drag_margin/left" </string>
+				<string> "drag_margin/top" </string>
+				<string> "drag_margin/right" </string>
+				<string> "drag_margin/bottom" </string>
+				<string> "front_exhaust" </string>
+				<string> "front_right_exhaust" </string>
+				<string> "back_right_exhaust" </string>
+				<string> "front_left_exhaust" </string>
+				<string> "back_left_exhaust" </string>
+			</string_array>
+			<string> "version" </string>
+			<int> 1 </int>
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "node_count" </string>
+			<int> 10 </int>
+			<string> "variants" </string>
+			<array  len="42" shared="false">
+				<bool> True </bool>
+				<real> 1 </real>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 0 </int>
+				<real> 30 </real>
+				<bool> False </bool>
+				<int> 1 </int>
+				<resource  resource_type="Script" path="res://scripts/player_ship.*">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://scripts/player_ship.gd" </string>
+							</array>
+						</dictionary>
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "pixel_snap" </string>
+							<bool> False </bool>
+							<string> "zoom" </string>
+							<real> 1.670183 </real>
+							<string> "ofs" </string>
+							<vector2> -269.371, -201.548 </vector2>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+							</array>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+				</dictionary>
+				<resource  resource_type="Texture" path="res://assets/ships/ship_1.*">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<vector2> 16, 63 </vector2>
+				<vector2> 0.165493, 0.546875 </vector2>
+				<int> 128 </int>
+				<vector2> 15, 15 </vector2>
+				<resource  resource_type="Texture" path="res://assets/particles/engine_exhaust.*">  </resource>
+				<real> 500 </real>
+				<real> -128 </real>
+				<real> 0.7 </real>
+				<real> 0.3 </real>
+				<int> 3 </int>
+				<color> 1, 1, 1, 0 </color>
+				<real> 0.1 </real>
+				<color> 0.603949, 0.463135, 1, 1 </color>
+				<color> 1, 0.980733, 1, 0 </color>
+				<color> 0, 0, 0, 1 </color>
+				<vector2_array  len="0"> 					 </vector2_array>
+				<vector2> -16, 63 </vector2>
+				<int> -10000000 </int>
+				<int> 10000000 </int>
+				<vector2> 0.220703, -85.696 </vector2>
+				<real> 180 </real>
+				<vector2> 19, -44.7642 </vector2>
+				<vector2> 0.203026, 0.165493 </vector2>
+				<real> 90 </real>
+				<vector2> 15.9968, 39.3 </vector2>
+				<vector2> -19, -43.8839 </vector2>
+				<real> -90 </real>
+				<vector2> -27, 39.3 </vector2>
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="962"> 				-1, -1, 1, 0, -1, 22, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 9, 5, 10, 5, 11, 6, 12, 3, 13, 3, 14, 0, 15, 7, 16, 8, 17, 0, 18, 0, 19, 0, 20, 2, 21, 3, 22, 9, 23, 10, 0, 0, 0, 25, 24, -1, 18, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 26, 11, 27, 0, 28, 2, 29, 7, 30, 7, 31, 8, 32, 8, 33, 5, 34, 12, 35, 7, 36, 13, 0, 0, 0, 38, 37, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 14, 7, 3, 8, 15, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 3, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 38, 87, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 30, 7, 3, 8, 15, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 3, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 89, 88, -1, 21, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 27, 0, 90, 0, 91, 3, 92, 4, 93, 31, 94, 31, 95, 32, 96, 32, 97, 0, 98, 0, 99, 3, 100, 3, 101, 3, 102, 3, 0, 0, 0, 38, 103, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 33, 7, 3, 8, 15, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 34, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 38, 104, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 35, 7, 3, 8, 36, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 37, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 38, 105, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 38, 7, 3, 8, 36, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 37, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 38, 106, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 39, 7, 3, 8, 36, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 40, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0, 0, 0, 38, 107, -1, 55, 2, 0, 3, 1, 4, 1, 5, 7, 39, 8, 6, 41, 7, 3, 8, 36, 40, 16, 41, 1, 42, 1, 43, 3, 44, 3, 45, 0, 46, 2, 47, 17, 48, 0, 49, 1, 50, 18, 51, 40, 52, 3, 53, 19, 54, 3, 55, 3, 56, 3, 57, 3, 58, 20, 59, 3, 60, 3, 61, 21, 62, 22, 63, 3, 64, 3, 65, 3, 66, 3, 67, 3, 68, 3, 69, 3, 70, 3, 71, 3, 72, 3, 73, 3, 74, 3, 75, 3, 76, 3, 77, 23, 78, 3, 79, 24, 80, 25, 81, 26, 82, 1, 83, 27, 84, 1, 85, 28, 86, 29, 0 </int_array>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
